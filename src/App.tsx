@@ -372,7 +372,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/img/younis_store.png"
+                    src="/Portfolio/img/younis_store.png"
                     alt="Project 1"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
@@ -433,7 +433,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/img/msclinic.png"
+                    src="/Portfolio/img/msclinic.png"
                     alt="Project 2"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
@@ -494,7 +494,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/img/Zaied.png"
+                    src="/Portfolio/img/Zaied.png"
                     alt="Project 3"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
