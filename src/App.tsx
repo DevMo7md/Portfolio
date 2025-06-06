@@ -1,5 +1,4 @@
-import React from "react";
-import { color, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from "react-scroll";
 import "./styles/background.css";
@@ -373,7 +372,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/public/img/younis_store.png"
+                    src="/img/younis_store.png"
                     alt="Project 1"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
@@ -434,7 +433,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/public/img/msclinic.png"
+                    src="/img/msclinic.png"
                     alt="Project 2"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
@@ -495,7 +494,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/public/img/Zaied.png"
+                    src="/img/Zaied.png"
                     alt="Project 3"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
