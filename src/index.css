@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-primary text-light min-h-screen;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-16 relative z-10;
+  }
+
+  .heading {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-6;
+  }
+
+  .subheading {
+    @apply text-xl md:text-2xl text-tertiary mb-8;
+  }
+
+  .nav-link {
+    @apply text-light hover:text-secondary cursor-pointer capitalize transition-all duration-300 
+           hover:shadow-neon px-3 py-1 rounded-md hover:bg-secondary/10;
+  }
+
+  .social-icon {
+    @apply text-secondary hover:text-light transition-all duration-300 hover:shadow-neon;
+  }
+
+  .neon-text {
+    @apply text-secondary filter drop-shadow-neon-text;
+  }
+
+  .neon-button {
+    @apply bg-secondary text-primary font-semibold rounded-lg transition-all duration-300 hover:shadow-neon hover:bg-opacity-90;
+  }
+
+  .container {
+    @apply relative z-10;
+  }
+}
