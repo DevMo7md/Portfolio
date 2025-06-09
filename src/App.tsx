@@ -138,7 +138,7 @@ function App() {
                   </div>
                   <div className="pt-4">
                     <a
-                      href="/cv.pdf"
+                      href="/Portfolio/cv.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="neon-button inline-block px-6 py-2"
