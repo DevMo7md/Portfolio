@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from "react-scroll";
 import "./styles/background.css";
 import TypeWriter from "./components/TypeWriter";
+import ThreeLaptop from "./components/ThreeLaptop";
 
 function App() {
   return (
@@ -47,33 +48,34 @@ function App() {
         id="home"
         className="section-padding min-h-screen flex items-center justify-center"
       >
-        <div className="container mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="max-w-3xl mx-auto"
-          >
-            <h1 className="heading font-mono">
-              <TypeWriter text="Hi, I'm " className="text-light" delay={100} />
-              <TypeWriter
-                text="Mohammed Younis"
-                className="neon-text"
-                delay={100}
-              />
-            </h1>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-16 max-w-7xl mx-auto w-full px-8">
+          {/* الجزء التعريفي */}
+          <div className="flex-1 text-center md:text-left">
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.5, duration: 0.5 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="max-w-lg mx-auto md:mx-0"
             >
-              <p className="subheading font-mono">
+              <h1 className="heading font-mono mb-4">
+                <TypeWriter
+                  text="Hi, I'm "
+                  className="text-light"
+                  delay={100}
+                />
+                <TypeWriter
+                  text="Mohammed Younis"
+                  className="neon-text"
+                  delay={100}
+                />
+              </h1>
+              <p className="subheading font-mono mb-4">
                 Full Stack Developer | Backend Developer
               </p>
               <p className="text-tertiary mb-8 font-mono">
                 I build exceptional digital experiences that make an impact.
               </p>
-              <div className="flex justify-center space-x-4">
+              <div className="flex justify-center md:justify-start space-x-4">
                 <a href="https://github.com/DevMo7md" className="social-icon">
                   <FaGithub size={24} />
                 </a>
@@ -88,7 +90,12 @@ function App() {
                 </a>
               </div>
             </motion.div>
-          </motion.div>
+          </div>
+
+          {/* الجزء 3D */}
+          <div className="w-full md:flex-[1.5] md:max-w-2xl" style={{ height: 500 }}>
+            <ThreeLaptop />
+          </div>
         </div>
       </section>
 
