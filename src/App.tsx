@@ -93,7 +93,10 @@ function App() {
           </div>
 
           {/* الجزء 3D */}
-          <div className="w-full md:flex-[1.5] md:max-w-2xl" style={{ height: 500 }}>
+          <div
+            className="w-full md:flex-[1.5] md:max-w-2xl"
+            style={{ height: 500 }}
+          >
             <ThreeLaptop />
           </div>
         </div>
@@ -546,6 +549,71 @@ function App() {
                     </a>
                     <a
                       href="https://github.com/DevMo7md/Zaied-Academy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-secondary hover:text-light transition-colors"
+                    >
+                      <FaGithub size={20} />
+                    </a>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Project Card 4 */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="bg-primary/50 rounded-lg overflow-hidden border border-secondary/20 group hover:border-secondary/40 transition-all duration-300"
+              >
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src="/Portfolio/img/Api_photo.png"
+                    alt="Project 3"
+                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-60" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-mono text-secondary mb-2">
+                    Tender(E-commerce)
+                  </h3>
+                  <p className="text-tertiary mb-4">
+                    E-Commerce API built with Python & Django, featuring product
+                    management, user authentication, shopping cart & checkout,
+                    media handling, payment integration, delivery support, and
+                    secure REST API endpoints.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {[
+                      "Python",
+                      "Django",
+                      "Django REST",
+                      "REST API",
+                      "HTML",
+                      "CSS",
+                      "PostgreSQL",
+                    ].map((tech) => (
+                      <span
+                        key={tech}
+                        className="px-2 py-1 bg-secondary/10 text-secondary rounded text-sm"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <a
+                      href="https://github.com/DevMo7md/E-Commerce-API.git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="neon-button px-4 py-2 text-sm"
+                    >
+                      View Project
+                    </a>
+                    <a
+                      href="https://github.com/DevMo7md/E-Commerce-API.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-secondary hover:text-light transition-colors"
