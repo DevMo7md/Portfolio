@@ -401,7 +401,7 @@ function App() {
                     user-friendly manner.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {["HTML", "CSS", "JS", "Django", "PostgreSQL", "Gemini 2.0 flash"].map(
+                    {["HTML", "CSS", "JS", "Django", "SQLite", "Gemini 2.0 flash"].map(
                       (tech) => (
                         <span
                           key={tech}
