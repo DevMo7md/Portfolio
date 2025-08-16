@@ -397,11 +397,11 @@ function App() {
                     Management System is a simple project aimed at facilitating
                     the management of spare parts in a workshop or car store.
                     The system allows users to add new spare parts, edit them,
-                    delete them, and display them in an organized and
+                    delete them, and display them in an organized , integrated with AI (Gemini 2.0 flash) to create bills from photos and PDFs and
                     user-friendly manner.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {["HTML", "CSS", "JS", "Django", "PostgreSQL"].map(
+                    {["HTML", "CSS", "JS", "Django", "PostgreSQL", "Gemini 2.0 flash"].map(
                       (tech) => (
                         <span
                           key={tech}
