@@ -397,20 +397,26 @@ function App() {
                     Management System is a simple project aimed at facilitating
                     the management of spare parts in a workshop or car store.
                     The system allows users to add new spare parts, edit them,
-                    delete them, and display them in an organized , integrated with AI (Gemini 2.0 flash) to create bills from photos and PDFs and
-                    user-friendly manner.
+                    delete them, and display them in an organized , integrated
+                    with AI (Gemini 2.0 flash) to create bills from photos and
+                    PDFs and user-friendly manner.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {["HTML", "CSS", "JS", "Django", "SQLite", "Gemini 2.0 flash"].map(
-                      (tech) => (
-                        <span
-                          key={tech}
-                          className="px-2 py-1 bg-secondary/10 text-secondary rounded text-sm"
-                        >
-                          {tech}
-                        </span>
-                      )
-                    )}
+                    {[
+                      "HTML",
+                      "CSS",
+                      "JS",
+                      "Django",
+                      "SQLite",
+                      "Gemini 2.0 flash",
+                    ].map((tech) => (
+                      <span
+                        key={tech}
+                        className="px-2 py-1 bg-secondary/10 text-secondary rounded text-sm"
+                      >
+                        {tech}
+                      </span>
+                    ))}
                   </div>
                   <div className="flex justify-between items-center">
                     <a
@@ -529,6 +535,7 @@ function App() {
                       "CSS",
                       "JS",
                       "PostgreSQL",
+                      "Paymob",
                     ].map((tech) => (
                       <span
                         key={tech}
@@ -570,7 +577,7 @@ function App() {
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src="/Portfolio/img/Api_photo.png"
-                    alt="Project 3"
+                    alt="Project 4"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-60" />
@@ -614,6 +621,71 @@ function App() {
                     </a>
                     <a
                       href="https://github.com/DevMo7md/E-Commerce-API.git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-secondary hover:text-light transition-colors"
+                    >
+                      <FaGithub size={20} />
+                    </a>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Project Card 5 */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="bg-primary/50 rounded-lg overflow-hidden border border-secondary/20 group hover:border-secondary/40 transition-all duration-300"
+              >
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src="/Portfolio/img/EgyNews.png"
+                    alt="Project 5"
+                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-60" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-mono text-secondary mb-2">
+                    Egy News(E-Press)
+                  </h3>
+                  <p className="text-tertiary mb-4">
+                    Egy news (E-press) is a modern online newspaper platform built with
+                    Django, featuring a journalist dashboard to manage articles,
+                    upload Word files & images, categorize content, and display
+                    trending articles with views & comments tracking.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {[
+                      "Python",
+                      "Django",
+                      "HTML",
+                      "CSS",
+                      "JS",
+                      "Summernote",
+                      "PostgreSQL",
+                    ].map((tech) => (
+                      <span
+                        key={tech}
+                        className="px-2 py-1 bg-secondary/10 text-secondary rounded text-sm"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <a
+                      href="https://github.com/DevMo7md/E-press.git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="neon-button px-4 py-2 text-sm"
+                    >
+                      View Project
+                    </a>
+                    <a
+                      href="https://github.com/DevMo7md/E-press.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-secondary hover:text-light transition-colors"
