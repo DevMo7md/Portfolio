@@ -48,11 +48,11 @@ function App() {
         id="home"
         className="section-padding min-h-screen flex items-center justify-center"
       >
-        <div className="flex flex-col md:flex-row items-center justify-center gap-16 max-w-7xl mx-auto w-full px-8">
+        <div className="flex flex-col md:flex-row justify-center ">
           {/* الجزء التعريفي */}
-          <div className="flex-1 text-center md:text-left">
+          <div className="flex-1 text-center ">
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               className="max-w-lg mx-auto md:mx-0"
@@ -75,7 +75,7 @@ function App() {
               <p className="text-tertiary mb-8 font-mono">
                 I build exceptional digital experiences that make an impact.
               </p>
-              <div className="flex justify-center md:justify-start space-x-4">
+              <div className="flex justify-center md:justify-center space-x-4">
                 <a href="https://github.com/DevMo7md" className="social-icon">
                   <FaGithub size={24} />
                 </a>
@@ -93,12 +93,12 @@ function App() {
           </div>
 
           {/* الجزء 3D */}
-          <div
+          {/* <div
             className="w-full md:flex-[1.5] md:max-w-2xl"
             style={{ height: 500 }}
           >
             <ThreeLaptop />
-          </div>
+          </div> */}
         </div>
       </section>
 
