@@ -148,12 +148,12 @@ function App() {
                   </div>
                   <div className="pt-4">
                     <a
-                      href="/Portfolio/cv.pdf"
+                      href="/Portfolio/MohammedsResume_1Page.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="neon-button inline-block px-6 py-2"
                     >
-                      View CV
+                      View Resume
                     </a>
                   </div>
                 </div>
@@ -325,6 +325,18 @@ function App() {
                   </span>
                 </div>
                 <p className="text-light font-mono mb-2"> Naser High School</p>
+                <p className="text-tertiary"></p>
+              </div>
+              <div className="bg-primary/50 p-6 rounded-lg border border-secondary/20">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+                  <h3 className="text-xl font-mono text-secondary">
+                    Faculty of Computer and Information Science
+                  </h3>
+                  <span className="text-tertiary font-mono text-sm">
+                    2025 - 2029
+                  </span>
+                </div>
+                <p className="text-light font-mono mb-2">Mansoura University</p>
                 <p className="text-tertiary"></p>
               </div>
 
@@ -652,10 +664,11 @@ function App() {
                     Egy News(E-Press)
                   </h3>
                   <p className="text-tertiary mb-4">
-                    Egy news (E-press) is a modern online newspaper platform built with
-                    Django, featuring a journalist dashboard to manage articles,
-                    upload Word files & images, categorize content, and display
-                    trending articles with views & comments tracking.
+                    Egy news (E-press) is a modern online newspaper platform
+                    built with Django, featuring a journalist dashboard to
+                    manage articles, upload Word files & images, categorize
+                    content, and display trending articles with views & comments
+                    tracking.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {[
