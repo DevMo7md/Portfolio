@@ -596,7 +596,7 @@ function App() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-mono text-secondary mb-2">
-                    Tender(E-commerce)
+                    Trender(E-commerce)
                   </h3>
                   <p className="text-tertiary mb-4">
                     E-Commerce API built with Python & Django, featuring product
