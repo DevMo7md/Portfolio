@@ -148,7 +148,7 @@ function App() {
                   </div>
                   <div className="pt-4">
                     <a
-                      href="/Portfolio/MohammedsResume_1Page.pdf"
+                      href="/Portfolio/Mohamed_Younes_Reseme.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="neon-button inline-block px-6 py-2"
@@ -461,7 +461,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/Portfolio/img/msclinic.png"
+                    src="/Portfolio/img/msclinic.jpeg"
                     alt="Project 2"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
@@ -522,7 +522,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/Portfolio/img/Zaied.png"
+                    src="/Portfolio/img/Zaied.jpeg"
                     alt="Project 3"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
@@ -653,7 +653,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/Portfolio/img/EgyNews.png"
+                    src="/Portfolio/img/EgyNews.jpeg"
                     alt="Project 5"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
