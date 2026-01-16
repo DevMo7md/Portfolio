@@ -718,7 +718,7 @@ function App() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src="/Portfolio/img/Zad-Alseghar.png"
+                    src="/Portfolio/img/Zad-Alseghar.jpeg"
                     alt="Project 6"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
                   />
