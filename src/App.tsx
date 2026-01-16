@@ -708,6 +708,69 @@ function App() {
                   </div>
                 </div>
               </motion.div>
+              {/* Project Card 6 */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="bg-primary/50 rounded-lg overflow-hidden border border-secondary/20 group hover:border-secondary/40 transition-all duration-300"
+              >
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src="/Portfolio/img/Zad-Alseghar.png"
+                    alt="Project 6"
+                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-60" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-mono text-secondary mb-2">
+                    Zad Alseghar(Islamic learning platform)
+                  </h3>
+                  <p className="text-tertiary mb-4">
+                    Zad Alseghar is an Islamic API program built with Django,
+                    that helps in raising children with a correct Islamic
+                    religious upbringing and includes several sections,
+                    including (prayer, Hadith, stories of the prophets, and
+                    other sections).
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {[
+                      "Python",
+                      "Django",
+                      "Django REST",
+                      "REST API",
+                      "PostgreSQL",
+                    ].map((tech) => (
+                      <span
+                        key={tech}
+                        className="px-2 py-1 bg-secondary/10 text-secondary rounded text-sm"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <a
+                      href="https://github.com/DevMo7md/Zad-Alseghar"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="neon-button px-4 py-2 text-sm"
+                    >
+                      View Project
+                    </a>
+                    <a
+                      href="https://github.com/DevMo7md/Zad-Alseghar"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-secondary hover:text-light transition-colors"
+                    >
+                      <FaGithub size={20} />
+                    </a>
+                  </div>
+                </div>
+              </motion.div>
             </div>
           </motion.div>
         </div>
